@@ -1,0 +1,19 @@
+{
+  "name": "cloudmargin-agentic-finance-lab",
+  "version": "3.0.0",
+  "description": "Independent financial simulation of agentic infrastructure economics, built with Next.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "next": "^15.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "engines": {"node": ">=20"}
+}
